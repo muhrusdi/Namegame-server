@@ -1,674 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Scheme
-   LastUpgradeVersion = "9999"
-   version = "1.3">
-   <BuildAction
-      parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
-      <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_CryptoEssentials"
-               BuildableName = "CryptoEssentials.framework"
-               BlueprintName = "CryptoEssentials"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HMAC"
-               BuildableName = "HMAC.framework"
-               BlueprintName = "HMAC"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SHA2"
-               BuildableName = "SHA2.framework"
-               BlueprintName = "SHA2"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_PathIndexable"
-               BuildableName = "PathIndexable.framework"
-               BlueprintName = "PathIndexable"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Polymorphic"
-               BuildableName = "Polymorphic.framework"
-               BlueprintName = "Polymorphic"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Node"
-               BuildableName = "Node.framework"
-               BlueprintName = "Node"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Fluent"
-               BuildableName = "Fluent.framework"
-               BlueprintName = "Fluent"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SHA1"
-               BuildableName = "SHA1.framework"
-               BlueprintName = "SHA1"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Socks"
-               BuildableName = "Socks.framework"
-               BlueprintName = "Socks"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCore"
-               BuildableName = "SocksCore.framework"
-               BlueprintName = "SocksCore"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPClient"
-               BuildableName = "SocksCoreExampleTCPClient"
-               BlueprintName = "SocksCoreExampleTCPClient"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPKeepAliveServer"
-               BuildableName = "SocksCoreExampleTCPKeepAliveServer"
-               BlueprintName = "SocksCoreExampleTCPKeepAliveServer"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksCoreExampleTCPServer"
-               BuildableName = "SocksCoreExampleTCPServer"
-               BlueprintName = "SocksCoreExampleTCPServer"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleTCPClient"
-               BuildableName = "SocksExampleTCPClient"
-               BlueprintName = "SocksExampleTCPClient"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleTCPServer"
-               BuildableName = "SocksExampleTCPServer"
-               BlueprintName = "SocksExampleTCPServer"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleUDPClient"
-               BuildableName = "SocksExampleUDPClient"
-               BlueprintName = "SocksExampleUDPClient"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SocksExampleUDPServer"
-               BuildableName = "SocksExampleUDPServer"
-               BlueprintName = "SocksExampleUDPServer"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Core"
-               BuildableName = "Core.framework"
-               BlueprintName = "Core"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_libc"
-               BuildableName = "libc.framework"
-               BlueprintName = "libc"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HTTP"
-               BuildableName = "HTTP.framework"
-               BlueprintName = "HTTP"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HTTPExample"
-               BuildableName = "HTTPExample"
-               BlueprintName = "HTTPExample"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SMTP"
-               BuildableName = "SMTP.framework"
-               BlueprintName = "SMTP"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_SMTPExample"
-               BuildableName = "SMTPExample"
-               BlueprintName = "SMTPExample"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Transport"
-               BuildableName = "Transport.framework"
-               BlueprintName = "Transport"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_URI"
-               BuildableName = "URI.framework"
-               BlueprintName = "URI"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_WebSockets"
-               BuildableName = "WebSockets.framework"
-               BlueprintName = "WebSockets"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_WebSocketsExample"
-               BuildableName = "WebSocketsExample"
-               BlueprintName = "WebSocketsExample"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Strand"
-               BuildableName = "Strand.framework"
-               BlueprintName = "Strand"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Console"
-               BuildableName = "Console.framework"
-               BlueprintName = "Console"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_ConsoleExample"
-               BuildableName = "ConsoleExample"
-               BlueprintName = "ConsoleExample"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_JSON"
-               BuildableName = "JSON.framework"
-               BlueprintName = "JSON"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Development"
-               BuildableName = "Development"
-               BlueprintName = "Development"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_HTTPRouting"
-               BuildableName = "HTTPRouting.framework"
-               BlueprintName = "HTTPRouting"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Performance"
-               BuildableName = "Performance"
-               BlueprintName = "Performance"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Routing"
-               BuildableName = "Routing.framework"
-               BlueprintName = "Routing"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_TypeSafeGenerator"
-               BuildableName = "TypeSafeGenerator"
-               BlueprintName = "TypeSafeGenerator"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_TypeSafeRouting"
-               BuildableName = "TypeSafeRouting.framework"
-               BlueprintName = "TypeSafeRouting"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Vapor"
-               BuildableName = "Vapor.framework"
-               BlueprintName = "Vapor"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_Mustache"
-               BuildableName = "Mustache.framework"
-               BlueprintName = "Mustache"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_VaporMustache"
-               BuildableName = "VaporMustache.framework"
-               BlueprintName = "VaporMustache"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_MySQL"
-               BuildableName = "MySQL.framework"
-               BlueprintName = "MySQL"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_FluentMySQL"
-               BuildableName = "FluentMySQL.framework"
-               BlueprintName = "FluentMySQL"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_VaporMySQL"
-               BuildableName = "VaporMySQL.framework"
-               BlueprintName = "VaporMySQL"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_App"
-               BuildableName = "App"
-               BlueprintName = "App"
-               ReferencedContainer = "container:namegame.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
-   </BuildAction>
-   <TestAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
-      <Testables>
-      </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
-   </TestAction>
-   <LaunchAction
-      buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
-      useCustomWorkingDirectory = "NO"
-      ignoresPersistentStateOnLaunch = "NO"
-      debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "______Target_CryptoEssentials"
-            BuildableName = "CryptoEssentials.framework"
-            BlueprintName = "CryptoEssentials"
-            ReferencedContainer = "container:namegame.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
-   </LaunchAction>
-   <ProfileAction
-      buildConfiguration = "Release"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
-   </ProfileAction>
-   <AnalyzeAction
-      buildConfiguration = "Debug">
-   </AnalyzeAction>
-   <ArchiveAction
-      buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES">
-   </ArchiveAction>
+<Scheme LastUpgradeVersion = "9999" version = "1.3">
+  <BuildAction parallelizeBuildables = "YES" buildImplicitDependencies = "YES">
+    <BuildActionEntries>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_CryptoEssentials"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "CryptoEssentials"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_HMAC"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "HMAC"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SHA2"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "SHA2"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_PathIndexable"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "PathIndexable"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Polymorphic"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Polymorphic"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Node"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Node"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Fluent"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Fluent"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SHA1"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "SHA1"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Socks"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Socks"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksCore"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "SocksCore"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksCoreExampleTCPClient"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksCoreExampleTCPClient"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksCoreExampleTCPKeepAliveServer"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksCoreExampleTCPKeepAliveServer"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksCoreExampleTCPServer"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksCoreExampleTCPServer"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksExampleTCPClient"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksExampleTCPClient"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksExampleTCPServer"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksExampleTCPServer"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksExampleUDPClient"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksExampleUDPClient"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SocksExampleUDPServer"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SocksExampleUDPServer"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Core"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Core"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_libc"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "libc"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_HTTP"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "HTTP"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_HTTPExample"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "HTTPExample"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SMTP"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "SMTP"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_SMTPExample"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "SMTPExample"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Transport"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Transport"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_URI"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "URI"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_WebSockets"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "WebSockets"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_WebSocketsExample"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "WebSocketsExample"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Strand"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Strand"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Console"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Console"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_ConsoleExample"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "ConsoleExample"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_JSON"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "JSON"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Development"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "Development"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_HTTPRouting"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "HTTPRouting"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Performance"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "Performance"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Routing"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Routing"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_TypeSafeGenerator"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "TypeSafeGenerator"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_TypeSafeRouting"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "TypeSafeRouting"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Vapor"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Vapor"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_Mustache"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "Mustache"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_VaporMustache"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "VaporMustache"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_MySQL"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "MySQL"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_FluentMySQL"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "FluentMySQL"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_VaporMySQL"
+          BuildableName = "'lib$(TARGET_NAME)'"
+          BlueprintName = "VaporMySQL"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
+        <BuildableReference
+          BuildableIdentifier = "primary"
+          BlueprintIdentifier = "______Target_App"
+          BuildableName = "'$(TARGET_NAME)'"
+          BlueprintName = "App"
+          ReferencedContainer = "container:namegame.xcodeproj">
+        </BuildableReference>
+      </BuildActionEntry>
+    </BuildActionEntries>
+  </BuildAction>
+  <TestAction
+    buildConfiguration = "Debug"
+    selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+    selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+    shouldUseLaunchSchemeArgsEnv = "YES"
+    codeCoverageEnabled = "YES">
+    <Testables>
+    </Testables>
+  </TestAction>
 </Scheme>
