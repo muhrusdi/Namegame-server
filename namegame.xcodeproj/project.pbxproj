@@ -354,6 +354,10 @@
 		_LinkFileRef_libc_via_VaporMySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSockets /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSocketsExample /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		__src_cc_ref_App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */; };
+		__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */; };
+		__src_cc_ref_App/Models/User.swift /* Models/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/User.swift /* Models/User.swift */; };
+		__src_cc_ref_App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/main.swift /* main.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */; };
@@ -780,210 +784,206 @@
 		"__src_cc_ref_Packages/VaporMustache-0.11.0/Sources/MustacheRenderer.swift" /* MustacheRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/VaporMustache-0.11.0/Sources/MustacheRenderer.swift" /* MustacheRenderer.swift */; };
 		"__src_cc_ref_Packages/VaporMustache-0.11.0/Sources/Provider.swift" /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/VaporMustache-0.11.0/Sources/Provider.swift" /* Provider.swift */; };
 		"__src_cc_ref_Packages/VaporMySQL-0.4.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/VaporMySQL-0.4.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift */; };
-		__src_cc_ref_Sources/App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/Controllers/UserController.swift /* Controllers/UserController.swift */; };
-		__src_cc_ref_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */; };
-		__src_cc_ref_Sources/App/Models/User.swift /* Models/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/Models/User.swift /* Models/User.swift */; };
-		__src_cc_ref_Sources/App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/main.swift /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94BD5C9F1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CBC1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CryptoEssentials";
 			remoteInfo = CryptoEssentials;
 		};
-		94BD5CA01D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CBD1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HMAC";
 			remoteInfo = HMAC;
 		};
-		94BD5CA11D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CBE1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SHA2";
 			remoteInfo = SHA2;
 		};
-		94BD5CA21D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CBF1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathIndexable";
 			remoteInfo = PathIndexable;
 		};
-		94BD5CA31D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC01D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Polymorphic";
 			remoteInfo = Polymorphic;
 		};
-		94BD5CA41D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC11D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Node";
 			remoteInfo = Node;
 		};
-		94BD5CA51D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC21D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Fluent";
 			remoteInfo = Fluent;
 		};
-		94BD5CA61D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC31D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SHA1";
 			remoteInfo = SHA1;
 		};
-		94BD5CA71D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC41D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Socks";
 			remoteInfo = Socks;
 		};
-		94BD5CA81D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC51D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SocksCore";
 			remoteInfo = SocksCore;
 		};
-		94BD5CA91D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC61D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Core";
 			remoteInfo = Core;
 		};
-		94BD5CAA1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC71D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		94BD5CAB1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC81D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTP";
 			remoteInfo = HTTP;
 		};
-		94BD5CAC1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CC91D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		94BD5CAD1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCA1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Transport";
 			remoteInfo = Transport;
 		};
-		94BD5CAE1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCB1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SMTP";
 			remoteInfo = SMTP;
 		};
-		94BD5CAF1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCC1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_WebSockets";
 			remoteInfo = WebSockets;
 		};
-		94BD5CB01D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCD1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Strand";
 			remoteInfo = Strand;
 		};
-		94BD5CB11D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCE1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		94BD5CB21D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CCF1D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_JSON";
 			remoteInfo = JSON;
 		};
-		94BD5CB31D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD01D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPRouting";
 			remoteInfo = HTTPRouting;
 		};
-		94BD5CB41D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD11D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Routing";
 			remoteInfo = Routing;
 		};
-		94BD5CB51D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD21D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TypeSafeRouting";
 			remoteInfo = TypeSafeRouting;
 		};
-		94BD5CB61D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD31D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Vapor";
 			remoteInfo = Vapor;
 		};
-		94BD5CB71D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD41D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Mustache";
 			remoteInfo = Mustache;
 		};
-		94BD5CB81D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD51D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_VaporMustache";
 			remoteInfo = VaporMustache;
 		};
-		94BD5CB91D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD61D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_MySQL";
 			remoteInfo = MySQL;
 		};
-		94BD5CBA1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD71D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_FluentMySQL";
 			remoteInfo = FluentMySQL;
 		};
-		94BD5CBB1D641E6300CFDCF6 /* PBXContainerItemProxy */ = {
+		94BD5CD81D64D55C00CFDCF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -993,6 +993,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/UserController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Models/User.swift /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Config /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		__PBXFileRef_Console_Info.plist /* namegame.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Core_Info.plist /* namegame.xcodeproj/Core_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Core_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -1444,10 +1448,6 @@
 		__PBXFileRef_SMTP_Info.plist /* namegame.xcodeproj/SMTP_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/SMTP_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_SocksCore_Info.plist /* namegame.xcodeproj/SocksCore_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/SocksCore_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Socks_Info.plist /* namegame.xcodeproj/Socks_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Socks_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_Sources/App/Controllers/UserController.swift /* Controllers/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/UserController.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/App/Models/User.swift /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/User.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Strand_Info.plist /* namegame.xcodeproj/Strand_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Strand_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Transport_Info.plist /* namegame.xcodeproj/Transport_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Transport_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_TypeSafeRouting_Info.plist /* namegame.xcodeproj/TypeSafeRouting_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/TypeSafeRouting_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -2218,7 +2218,7 @@
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
 				"_____Configs_" /* Configs */,
-				"_______Group_App" /* App */,
+				"_____Sources_" /* Sources */,
 				__PBXFileRef_Config /* Config */,
 				__PBXFileRef_Localization /* Localization */,
 				__PBXFileRef_Public /* Public */,
@@ -2287,13 +2287,21 @@
 			name = Configs;
 			sourceTree = "<group>";
 		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_App" /* App */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
 		"_______Group_App" /* App */ = {
 			isa = PBXGroup;
 			children = (
-				__PBXFileRef_Sources/App/main.swift /* main.swift */,
-				__PBXFileRef_Sources/App/Controllers/UserController.swift /* Controllers/UserController.swift */,
-				__PBXFileRef_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */,
-				__PBXFileRef_Sources/App/Models/User.swift /* Models/User.swift */,
+				__PBXFileRef_App/main.swift /* main.swift */,
+				__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */,
+				__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */,
+				__PBXFileRef_App/Models/User.swift /* Models/User.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -4210,10 +4218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				__src_cc_ref_Sources/App/main.swift /* main.swift in Sources */,
-				__src_cc_ref_Sources/App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */,
-				__src_cc_ref_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */,
-				__src_cc_ref_Sources/App/Models/User.swift /* Models/User.swift in Sources */,
+				__src_cc_ref_App/main.swift /* main.swift in Sources */,
+				__src_cc_ref_App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */,
+				__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */,
+				__src_cc_ref_App/Models/User.swift /* Models/User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4950,147 +4958,147 @@
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = 94BD5CB11D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCE1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = 94BD5CA91D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC61D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CryptoEssentials /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CryptoEssentials" /* CryptoEssentials */;
-			targetProxy = 94BD5C9F1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CBC1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Fluent /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Fluent" /* Fluent */;
-			targetProxy = 94BD5CA51D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC21D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_FluentMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_FluentMySQL" /* FluentMySQL */;
-			targetProxy = 94BD5CBA1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD71D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HMAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HMAC" /* HMAC */;
-			targetProxy = 94BD5CA01D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CBD1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = 94BD5CAB1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC81D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPRouting" /* HTTPRouting */;
-			targetProxy = 94BD5CB31D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD01D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_JSON /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_JSON" /* JSON */;
-			targetProxy = 94BD5CB21D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCF1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Mustache /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Mustache" /* Mustache */;
-			targetProxy = 94BD5CB71D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD41D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_MySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_MySQL" /* MySQL */;
-			targetProxy = 94BD5CB91D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD61D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Node /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Node" /* Node */;
-			targetProxy = 94BD5CA41D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC11D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathIndexable /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathIndexable" /* PathIndexable */;
-			targetProxy = 94BD5CA21D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CBF1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = 94BD5CA31D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC01D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Routing /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Routing" /* Routing */;
-			targetProxy = 94BD5CB41D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD11D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA1" /* SHA1 */;
-			targetProxy = 94BD5CA61D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC31D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SHA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SHA2" /* SHA2 */;
-			targetProxy = 94BD5CA11D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CBE1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SMTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SMTP" /* SMTP */;
-			targetProxy = 94BD5CAE1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCB1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Socks /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Socks" /* Socks */;
-			targetProxy = 94BD5CA71D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC41D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SocksCore /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SocksCore" /* SocksCore */;
-			targetProxy = 94BD5CA81D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC51D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Strand /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Strand" /* Strand */;
-			targetProxy = 94BD5CB01D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCD1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Transport /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Transport" /* Transport */;
-			targetProxy = 94BD5CAD1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCA1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TypeSafeRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TypeSafeRouting" /* TypeSafeRouting */;
-			targetProxy = 94BD5CB51D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD21D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = 94BD5CAC1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC91D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Vapor /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Vapor" /* Vapor */;
-			targetProxy = 94BD5CB61D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD31D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporMustache /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporMustache" /* VaporMustache */;
-			targetProxy = 94BD5CB81D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD51D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporMySQL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporMySQL" /* VaporMySQL */;
-			targetProxy = 94BD5CBB1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CD81D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_WebSockets /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_WebSockets" /* WebSockets */;
-			targetProxy = 94BD5CAF1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CCC1D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = 94BD5CAA1D641E6300CFDCF6 /* PBXContainerItemProxy */;
+			targetProxy = 94BD5CC71D64D55C00CFDCF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
