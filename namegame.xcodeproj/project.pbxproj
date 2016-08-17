@@ -2218,7 +2218,7 @@
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
 				"_____Configs_" /* Configs */,
-				"_____Sources_" /* Sources */,
+				"_______Group_App" /* App */,
 				__PBXFileRef_Config /* Config */,
 				__PBXFileRef_Localization /* Localization */,
 				__PBXFileRef_Public /* Public */,
@@ -2287,14 +2287,6 @@
 			name = Configs;
 			sourceTree = "<group>";
 		};
-		"_____Sources_" /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_App" /* App */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
 		"_______Group_App" /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -2303,8 +2295,7 @@
 				__PBXFileRef_Sources/App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */,
 				__PBXFileRef_Sources/App/Models/User.swift /* Models/User.swift */,
 			);
-			name = App;
-			path = Sources/App;
+			path = App;
 			sourceTree = "<group>";
 		};
 		"_______Group_Console" /* Console */ = {
