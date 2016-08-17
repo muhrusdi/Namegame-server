@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57CA2AD4481D23D11D5E35327A617A1E460E73C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26" : 9223372036854775807,
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : 9223372036854775807,
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : 9223372036854775807,
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F" : 9223372036854775807,
+    "57CA2AD4481D23D11D5E35327A617A1E460E73C8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05AA0F1E-DA34-4B1D-A21A-F763E0D4AE7C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26" : "Namegame-server\/namegame\/Packages\/SHA1-0.10.0\/",
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : "Namegame-server\/namegame\/Packages\/Strand-1.6.0\/",
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : "Namegame-server\/namegame\/Packages\/SHA2-0.9.0\/",
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F" : "Namegame-server\/namegame\/Packages\/Socks-0.10.0\/",
+    "57CA2AD4481D23D11D5E35327A617A1E460E73C8" : "Namegame-server\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "namegame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "namegame\/namegame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Strand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A88C7F5F6EA13C3C2A03CD1950D7F655F1E4F26"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/phil10cole\/Namegame-server.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57CA2AD4481D23D11D5E35327A617A1E460E73C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/czechboy0\/Socks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C479842BAB37E5A02B52F0D8BB690041F1A927F"
+    }
+  ]
+}
