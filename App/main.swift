@@ -57,11 +57,11 @@ drop.get("json") { request in
         "number": 123,
         "string": "test",
         "array": try JSON([
-            0, 1, 2, 3
+            5,6,7,8
         ]),
         "dict": try JSON([
-            "name": "Vapor",
-            "lang": "Swift"
+            "name": "😬",
+            "lang": "😄"
         ])
     ])
 }
