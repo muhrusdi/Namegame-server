@@ -2218,7 +2218,7 @@
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
 				"_____Configs_" /* Configs */,
-				"_____Sources_" /* Sources */,
+				"_______Group_App" /* App */,
 				__PBXFileRef_Config /* Config */,
 				__PBXFileRef_Localization /* Localization */,
 				__PBXFileRef_Public /* Public */,
@@ -2285,14 +2285,6 @@
 				__PBXFileRef_namegame.xcodeproj/Configs/Project.xcconfig /* namegame.xcodeproj/Configs/Project.xcconfig */,
 			);
 			name = Configs;
-			sourceTree = "<group>";
-		};
-		"_____Sources_" /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_App" /* App */,
-			);
-			name = Sources;
 			sourceTree = "<group>";
 		};
 		"_______Group_App" /* App */ = {
