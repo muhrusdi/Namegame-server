@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9478CE791D6BFAE400365DA3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478CE781D6BFAE400365DA3 /* Person.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -354,9 +355,9 @@
 		_LinkFileRef_libc_via_VaporMySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSockets /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSocketsExample /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
-		__src_cc_ref_App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */; };
-		__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */; };
-		__src_cc_ref_App/Models/User.swift /* Models/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/User.swift /* Models/User.swift */; };
+		__src_cc_ref_App/Controllers/UserController.swift /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Controllers/UserController.swift /* UserController.swift */; };
+		__src_cc_ref_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift */; };
+		__src_cc_ref_App/Models/User.swift /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/Models/User.swift /* User.swift */; };
 		__src_cc_ref_App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_App/main.swift /* main.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
 		"__src_cc_ref_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.5.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
@@ -993,9 +994,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers/UserController.swift; sourceTree = "<group>"; };
-		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware/SampleMiddleware.swift; sourceTree = "<group>"; };
-		__PBXFileRef_App/Models/User.swift /* Models/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		9478CE781D6BFAE400365DA3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Controllers/UserController.swift /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMiddleware.swift; sourceTree = "<group>"; };
+		__PBXFileRef_App/Models/User.swift /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Config /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		__PBXFileRef_Console_Info.plist /* namegame.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
@@ -2163,6 +2165,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9478CE741D6B8EEC00365DA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_App/Models/User.swift /* User.swift */,
+				9478CE781D6BFAE400365DA3 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9478CE761D6B8EFF00365DA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_App/Controllers/UserController.swift /* UserController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9478CE771D6B8F0900365DA3 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
 		Dependencies_ /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -2217,8 +2244,8 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
+				"_______Group_App" /* App */,
 				"_____Configs_" /* Configs */,
-				"_____Sources_" /* Sources */,
 				__PBXFileRef_Config /* Config */,
 				__PBXFileRef_Localization /* Localization */,
 				__PBXFileRef_Public /* Public */,
@@ -2287,21 +2314,13 @@
 			name = Configs;
 			sourceTree = "<group>";
 		};
-		"_____Sources_" /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_App" /* App */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
 		"_______Group_App" /* App */ = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_App/main.swift /* main.swift */,
-				__PBXFileRef_App/Controllers/UserController.swift /* Controllers/UserController.swift */,
-				__PBXFileRef_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift */,
-				__PBXFileRef_App/Models/User.swift /* Models/User.swift */,
+				9478CE771D6B8F0900365DA3 /* Middleware */,
+				9478CE761D6B8EFF00365DA3 /* Controllers */,
+				9478CE741D6B8EEC00365DA3 /* Models */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -4218,10 +4237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				9478CE791D6BFAE400365DA3 /* Person.swift in Sources */,
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
-				__src_cc_ref_App/Controllers/UserController.swift /* Controllers/UserController.swift in Sources */,
-				__src_cc_ref_App/Middleware/SampleMiddleware.swift /* Middleware/SampleMiddleware.swift in Sources */,
-				__src_cc_ref_App/Models/User.swift /* Models/User.swift in Sources */,
+				__src_cc_ref_App/Controllers/UserController.swift /* UserController.swift in Sources */,
+				__src_cc_ref_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift in Sources */,
+				__src_cc_ref_App/Models/User.swift /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
