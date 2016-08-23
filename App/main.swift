@@ -2,6 +2,7 @@ import Vapor
 import VaporMustache
 import HTTP
 import VaporMySQL
+import Foundation
 
 
 /**
@@ -29,13 +30,27 @@ droplet.get("/") { request in
 }
 
 droplet.group("api/v1") {api in
+    
     api.get("people", handler: { (request:Request) -> ResponseRepresentable in
-        let respone = try droplet.client.get("http://api.namegame.willowtreemobile.com/")
-        return respone
+        let response = try droplet.client.get("http://api.namegame.willowtreemobile.com/")
+        guard let bytes = response.body.bytes else { throw Abort.custom(status: Status.failedDependency, message: "Could not covert willowtree api for persons to data") }
+        let json = try JSON(bytes: bytes)
+        for object in json.array! {
+            
+            let name = object.object!["name"].string!
+            let url = object.object!["url"].string!
+            print("name: \(name), url: \(url)")
+        }
+        return response
     })
     
-    api.get("people", Int.self, handler: { (request:Request, url:Int) -> ResponseRepresentable in
-        return try JSON(["😄"])
+    api.get("game-modes", handler: { (request:Request) -> ResponseRepresentable in
+        return try JSON([
+            "Match Name",
+            "Match Picture",
+            "Matt Mode",
+            "Hint Mode"
+        ])
     })
 }
 
