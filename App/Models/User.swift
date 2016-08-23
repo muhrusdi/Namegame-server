@@ -28,7 +28,12 @@ final class User: Model {
 
     func makeNode() throws -> Node {
         return try Node(node: [
-            "name": name
+            "id":id,
+            "name": name,
+            "matchNamePlays":matchNamePlays,
+            "matchPicturePlays":matchPicturePlays,
+            "mattModePlays":mattModePlays,
+            "hintModePlays":hintModePlays
         ])
     }
 
