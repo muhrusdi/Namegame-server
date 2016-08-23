@@ -19,11 +19,11 @@ final class User: Model {
 
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
-        name = try node.extract("name")
-        matchNamePlays = try node.extract("matchNamePlays")
-        matchPicturePlays = try node.extract("matchPicturePlays")
-        mattModePlays = try node.extract("mattModePlays")
-        hintModePlays = try node.extract("hintModePlays")
+        name = node["name"]?.string ?? ""
+        matchNamePlays = node["matchNamePlays"]?.int ?? 0
+        matchPicturePlays = node["matchPicturePlays"]?.int ?? 0
+        mattModePlays = node["mattModePlays"]?.int ?? 0
+        hintModePlays = node["hintModePlays"]?.int ?? 0
     }
 
     func makeNode() throws -> Node {
