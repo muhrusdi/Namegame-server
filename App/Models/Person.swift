@@ -33,7 +33,7 @@ struct Person: Model {
     
     static func prepare(_ database: Database) throws {
         try database.create("person", closure: { person in
-            person.id("url", optional: false)
+            person.string("id")
             person.string("name")
         })
     }
