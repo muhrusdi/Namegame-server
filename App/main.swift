@@ -11,7 +11,7 @@ import VaporMySQL
     or `drop.client()` to create a client for
     request data from other servers.
 */
-let droplet = Droplet(preparations:[User.self], providers: [VaporMustache.Provider.self, VaporMySQL.Provider.self])
+let droplet = Droplet(preparations:[User.self, Person.self], providers: [VaporMustache.Provider.self, VaporMySQL.Provider.self])
 
 
 /**
@@ -29,11 +29,14 @@ droplet.get("/") { request in
 }
 
 droplet.group("api/v1") {api in
-    api.get("users", handler: { (request:Request) -> ResponseRepresentable in
+    api.get("people", handler: { (request:Request) -> ResponseRepresentable in
         let respone = try droplet.client.get("http://api.namegame.willowtreemobile.com/")
         return respone
     })
     
+    api.get("people", Int.self, handler: { (request:Request, url:Int) -> ResponseRepresentable in
+        return try JSON(["😄"])
+    })
 }
 
 
