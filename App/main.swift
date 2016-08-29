@@ -33,24 +33,41 @@ droplet.group("api/v1") {api in
     
     api.get("people", handler: { (request:Request) -> ResponseRepresentable in
         let response = try droplet.client.get("http://api.namegame.willowtreemobile.com/")
-        guard let bytes = response.body.bytes else { throw Abort.custom(status: Status.failedDependency, message: "Could not covert willowtree api for persons to data") }
-        let json = try JSON(bytes: bytes)
-        for object in json.array! {
-            
-            let name = object.object!["name"].string!
-            let url = object.object!["url"].string!
+        guard let bytes = response.body.bytes,
+            let json = try? JSON(bytes: bytes),
+            let array = json.array
+            else { throw Abort.custom(status: Status.failedDependency, message: "Could not covert willowtree api for persons to data") }
+        
+        for object in array {
+            guard let name = object.object!["name"].string,
+                let url = object.object!["url"].string
+                else { throw Abort.custom(status: Status.noContent, message: "Could not parse willowtree api for person")}
             print("name: \(name), url: \(url)")
         }
         return response
     })
     
-    api.get("game-modes", handler: { (request:Request) -> ResponseRepresentable in
+    api.get("game_modes", handler: { (request:Request) -> ResponseRepresentable in
         return try JSON([
             "Match Name",
             "Match Picture",
             "Matt Mode",
             "Hint Mode"
         ])
+    })
+    
+    api.post("user", handler: { (request:Request) -> ResponseRepresentable in
+        guard let username = request.data["username"].string else {
+            throw Abort.custom(status: Status.unauthorized, message: "Username empty")
+        }
+        
+        if let found = try User.query().filter("username", username).first() {
+            throw Abort.custom(status: Status.unauthorized, message: "Username taken")
+        }
+        
+        var user = User(name: username)
+        try user.save()
+        return user
     })
 }
 

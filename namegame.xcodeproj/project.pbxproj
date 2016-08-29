@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9402EF0F1D6E93CC009BC851 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402EF0E1D6E93CC009BC851 /* GameController.swift */; };
 		9478CE791D6BFAE400365DA3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478CE781D6BFAE400365DA3 /* Person.swift */; };
+		9478CE7B1D6CD3BA00365DA3 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478CE7A1D6CD3BA00365DA3 /* PersonController.swift */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Development /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -994,7 +996,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9402EF0E1D6E93CC009BC851 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		9478CE781D6BFAE400365DA3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9478CE7A1D6CD3BA00365DA3 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Controllers/UserController.swift /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMiddleware.swift; sourceTree = "<group>"; };
 		__PBXFileRef_App/Models/User.swift /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -1460,49 +1464,49 @@
 		__PBXFileRef_WebSockets_Info.plist /* namegame.xcodeproj/WebSockets_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/WebSockets_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_libc_Info.plist /* namegame.xcodeproj/libc_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = namegame.xcodeproj/libc_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_namegame.xcodeproj/Configs/Project.xcconfig /* namegame.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = namegame.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
-		"_____Product_App" /* <RelativePath:"App"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"App\">"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_App" /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Console" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"ConsoleExample\">"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ConsoleExample" /* ConsoleExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Core" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_CryptoEssentials" /* CryptoEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Development" /* <RelativePath:"Development"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Development\">"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Development" /* Development */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Development; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Fluent" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_FluentMySQL" /* FluentMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HMAC" /* HMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTP" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"HTTPExample\">"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTPExample" /* HTTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HTTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTPRouting" /* HTTPRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTPRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_JSON" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Mustache" /* Mustache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mustache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_MySQL" /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Node" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Node.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PathIndexable" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_Performance" /* <RelativePath:"Performance"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Performance\">"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Performance" /* Performance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Performance; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Polymorphic" /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Routing" /* Routing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Routing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA1" /* SHA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SHA2" /* SHA2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SHA2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SMTP" /* SMTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SMTPExample\">"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SMTPExample" /* SMTPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SMTPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Socks" /* Socks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Socks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SocksCore" /* SocksCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocksCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPClient\">"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPKeepAliveServer\">"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksCoreExampleTCPServer\">"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPClient\">"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleTCPServer\">"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPClient\">"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"SocksExampleUDPServer\">"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPKeepAliveServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksCoreExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SocksExampleUDPServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Strand" /* Strand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Strand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Transport" /* Transport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Transport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"TypeSafeGenerator\">"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TypeSafeGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TypeSafeRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Vapor" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_VaporMustache" /* VaporMustache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporMustache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_VaporMySQL" /* VaporMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_WebSockets" /* WebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"WebSocketsExample\">"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_WebSocketsExample" /* WebSocketsExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = WebSocketsExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_libc" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2178,6 +2182,8 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_App/Controllers/UserController.swift /* UserController.swift */,
+				9478CE7A1D6CD3BA00365DA3 /* PersonController.swift */,
+				9402EF0E1D6E93CC009BC851 /* GameController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -2268,32 +2274,32 @@
 				"_____Product_SHA1" /* SHA1.framework */,
 				"_____Product_Socks" /* Socks.framework */,
 				"_____Product_SocksCore" /* SocksCore.framework */,
-				"_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */,
-				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */,
-				"_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */,
-				"_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */,
-				"_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */,
-				"_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */,
-				"_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */,
+				"_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */,
+				"_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */,
+				"_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */,
+				"_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */,
+				"_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */,
+				"_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */,
+				"_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */,
 				"_____Product_Core" /* Core.framework */,
 				"_____Product_libc" /* libc.framework */,
 				"_____Product_HTTP" /* HTTP.framework */,
-				"_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */,
+				"_____Product_HTTPExample" /* HTTPExample */,
 				"_____Product_SMTP" /* SMTP.framework */,
-				"_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */,
+				"_____Product_SMTPExample" /* SMTPExample */,
 				"_____Product_Transport" /* Transport.framework */,
 				"_____Product_URI" /* URI.framework */,
 				"_____Product_WebSockets" /* WebSockets.framework */,
-				"_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */,
+				"_____Product_WebSocketsExample" /* WebSocketsExample */,
 				"_____Product_Strand" /* Strand.framework */,
 				"_____Product_Console" /* Console.framework */,
-				"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */,
+				"_____Product_ConsoleExample" /* ConsoleExample */,
 				"_____Product_JSON" /* JSON.framework */,
-				"_____Product_Development" /* <RelativePath:"Development"> */,
+				"_____Product_Development" /* Development */,
 				"_____Product_HTTPRouting" /* HTTPRouting.framework */,
-				"_____Product_Performance" /* <RelativePath:"Performance"> */,
+				"_____Product_Performance" /* Performance */,
 				"_____Product_Routing" /* Routing.framework */,
-				"_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */,
+				"_____Product_TypeSafeGenerator" /* TypeSafeGenerator */,
 				"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */,
 				"_____Product_Vapor" /* Vapor.framework */,
 				"_____Product_Mustache" /* Mustache.framework */,
@@ -2301,7 +2307,7 @@
 				"_____Product_MySQL" /* MySQL.framework */,
 				"_____Product_FluentMySQL" /* FluentMySQL.framework */,
 				"_____Product_VaporMySQL" /* VaporMySQL.framework */,
-				"_____Product_App" /* <RelativePath:"App"> */,
+				"_____Product_App" /* App */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3169,7 +3175,7 @@
 			);
 			name = App;
 			productName = App;
-			productReference = "_____Product_App" /* <RelativePath:"App"> */;
+			productReference = "_____Product_App" /* App */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Console" /* Console */ = {
@@ -3210,7 +3216,7 @@
 			);
 			name = ConsoleExample;
 			productName = ConsoleExample;
-			productReference = "_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */;
+			productReference = "_____Product_ConsoleExample" /* ConsoleExample */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Core" /* Core */ = {
@@ -3280,7 +3286,7 @@
 			);
 			name = Development;
 			productName = Development;
-			productReference = "_____Product_Development" /* <RelativePath:"Development"> */;
+			productReference = "_____Product_Development" /* Development */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Fluent" /* Fluent */ = {
@@ -3387,7 +3393,7 @@
 			);
 			name = HTTPExample;
 			productName = HTTPExample;
-			productReference = "_____Product_HTTPExample" /* <RelativePath:"HTTPExample"> */;
+			productReference = "_____Product_HTTPExample" /* HTTPExample */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_HTTPRouting" /* HTTPRouting */ = {
@@ -3554,7 +3560,7 @@
 			);
 			name = Performance;
 			productName = Performance;
-			productReference = "_____Product_Performance" /* <RelativePath:"Performance"> */;
+			productReference = "_____Product_Performance" /* Performance */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Polymorphic" /* Polymorphic */ = {
@@ -3687,7 +3693,7 @@
 			);
 			name = SMTPExample;
 			productName = SMTPExample;
-			productReference = "_____Product_SMTPExample" /* <RelativePath:"SMTPExample"> */;
+			productReference = "_____Product_SMTPExample" /* SMTPExample */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Socks" /* Socks */ = {
@@ -3737,7 +3743,7 @@
 			);
 			name = SocksCoreExampleTCPClient;
 			productName = SocksCoreExampleTCPClient;
-			productReference = "_____Product_SocksCoreExampleTCPClient" /* <RelativePath:"SocksCoreExampleTCPClient"> */;
+			productReference = "_____Product_SocksCoreExampleTCPClient" /* SocksCoreExampleTCPClient */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */ = {
@@ -3754,7 +3760,7 @@
 			);
 			name = SocksCoreExampleTCPKeepAliveServer;
 			productName = SocksCoreExampleTCPKeepAliveServer;
-			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* <RelativePath:"SocksCoreExampleTCPKeepAliveServer"> */;
+			productReference = "_____Product_SocksCoreExampleTCPKeepAliveServer" /* SocksCoreExampleTCPKeepAliveServer */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */ = {
@@ -3771,7 +3777,7 @@
 			);
 			name = SocksCoreExampleTCPServer;
 			productName = SocksCoreExampleTCPServer;
-			productReference = "_____Product_SocksCoreExampleTCPServer" /* <RelativePath:"SocksCoreExampleTCPServer"> */;
+			productReference = "_____Product_SocksCoreExampleTCPServer" /* SocksCoreExampleTCPServer */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPClient" /* SocksExampleTCPClient */ = {
@@ -3788,7 +3794,7 @@
 			);
 			name = SocksExampleTCPClient;
 			productName = SocksExampleTCPClient;
-			productReference = "_____Product_SocksExampleTCPClient" /* <RelativePath:"SocksExampleTCPClient"> */;
+			productReference = "_____Product_SocksExampleTCPClient" /* SocksExampleTCPClient */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleTCPServer" /* SocksExampleTCPServer */ = {
@@ -3805,7 +3811,7 @@
 			);
 			name = SocksExampleTCPServer;
 			productName = SocksExampleTCPServer;
-			productReference = "_____Product_SocksExampleTCPServer" /* <RelativePath:"SocksExampleTCPServer"> */;
+			productReference = "_____Product_SocksExampleTCPServer" /* SocksExampleTCPServer */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPClient" /* SocksExampleUDPClient */ = {
@@ -3822,7 +3828,7 @@
 			);
 			name = SocksExampleUDPClient;
 			productName = SocksExampleUDPClient;
-			productReference = "_____Product_SocksExampleUDPClient" /* <RelativePath:"SocksExampleUDPClient"> */;
+			productReference = "_____Product_SocksExampleUDPClient" /* SocksExampleUDPClient */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_SocksExampleUDPServer" /* SocksExampleUDPServer */ = {
@@ -3839,7 +3845,7 @@
 			);
 			name = SocksExampleUDPServer;
 			productName = SocksExampleUDPServer;
-			productReference = "_____Product_SocksExampleUDPServer" /* <RelativePath:"SocksExampleUDPServer"> */;
+			productReference = "_____Product_SocksExampleUDPServer" /* SocksExampleUDPServer */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_Strand" /* Strand */ = {
@@ -3913,7 +3919,7 @@
 			);
 			name = TypeSafeGenerator;
 			productName = TypeSafeGenerator;
-			productReference = "_____Product_TypeSafeGenerator" /* <RelativePath:"TypeSafeGenerator"> */;
+			productReference = "_____Product_TypeSafeGenerator" /* TypeSafeGenerator */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_TypeSafeRouting" /* TypeSafeRouting */ = {
@@ -4145,7 +4151,7 @@
 			);
 			name = WebSocketsExample;
 			productName = WebSocketsExample;
-			productReference = "_____Product_WebSocketsExample" /* <RelativePath:"WebSocketsExample"> */;
+			productReference = "_____Product_WebSocketsExample" /* WebSocketsExample */;
 			productType = "com.apple.product-type.tool";
 		};
 		"______Target_libc" /* libc */ = {
@@ -4241,7 +4247,9 @@
 				__src_cc_ref_App/main.swift /* main.swift in Sources */,
 				__src_cc_ref_App/Controllers/UserController.swift /* UserController.swift in Sources */,
 				__src_cc_ref_App/Middleware/SampleMiddleware.swift /* SampleMiddleware.swift in Sources */,
+				9478CE7B1D6CD3BA00365DA3 /* PersonController.swift in Sources */,
 				__src_cc_ref_App/Models/User.swift /* User.swift in Sources */,
+				9402EF0F1D6E93CC009BC851 /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

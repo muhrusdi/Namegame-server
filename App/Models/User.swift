@@ -3,14 +3,14 @@ import Fluent
 
 final class User: Model {
     var id: Node?
-    var name: String
+    var username: String
     var matchNamePlays:Int
     var matchPicturePlays:Int
     var mattModePlays:Int
     var hintModePlays:Int
     
     init(name: String) {
-        self.name = name
+        self.username = name
         matchNamePlays = 0
         matchPicturePlays = 0
         mattModePlays = 0
@@ -19,7 +19,7 @@ final class User: Model {
 
     init(node: Node, in context: Context) throws {
         id = try node.extract("id")
-        name = node["name"]?.string ?? ""
+        username = node["username"]?.string ?? ""
         matchNamePlays = node["matchNamePlays"]?.int ?? 0
         matchPicturePlays = node["matchPicturePlays"]?.int ?? 0
         mattModePlays = node["mattModePlays"]?.int ?? 0
@@ -29,7 +29,7 @@ final class User: Model {
     func makeNode() throws -> Node {
         return try Node(node: [
             "id":id,
-            "name": name,
+            "username": username,
             "matchNamePlays":matchNamePlays,
             "matchPicturePlays":matchPicturePlays,
             "mattModePlays":mattModePlays,
@@ -38,9 +38,9 @@ final class User: Model {
     }
 
     static func prepare(_ database: Database) throws {
-        try database.create("user") { users in
+        try database.create(User.entity) { users in
             users.id()
-            users.string("name")
+            users.string("username")
             users.int("matchNamePlays")
             users.int("matchPicturePlays")
             users.int("mattModePlays")
